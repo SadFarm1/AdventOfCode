@@ -33,7 +33,6 @@ for passport in full_list:
         if field in passport:
             filled_in += 1
 
-    print(filled_in)
     if filled_in == 7:
         valid_passports += 1
 

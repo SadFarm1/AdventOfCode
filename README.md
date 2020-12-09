@@ -26,7 +26,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ✔ [Day 3: Toboggan Trajectory](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 3>)| 🌟 | 🌟 |
 | ✔ [Day 4: Passport Processing](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 4>)| 🌟 | 🌟 |
 | ✔ [Day 5: Binary Boarding](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 5>)| 🌟 | 🌟 |
-| ✔ [Day 6: Custom Customs](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 6>)|  |  |
+| ✔ [Day 6: Custom Customs](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 6>)| 🌟 | 🌟 |
 | ✔ [Day 7: Handy Haversacks](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 7>)|  |  |
 | ✔ [Day 8: Handheld Halting](<https://github.com/SadFarm1/AdventOfCode/tree/master/Day 7>)|  |  |
 | [Day 9: TBD](>)| | |

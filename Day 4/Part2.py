@@ -51,7 +51,6 @@ for passport in full_list:
             height = int(height.replace('cm', ''))
             if height >= 150 and height <= 193:
                 valid_data += 1
-        print('height:', heightt, valid_data)
 
 
         birth = passport.split('byr:')
@@ -61,7 +60,6 @@ for passport in full_list:
         if int(birth) >= 1920 and int(birth) <= 2002:
             valid_data += 1
 
-        print('birth' , birth, valid_data)
 
         issue = passport.split('iyr:')
         issue = issue[1].split(' ')
@@ -70,7 +68,6 @@ for passport in full_list:
         if issue >= 2010 and issue <= 2020:
             valid_data += 1
 
-        print('issue' , issue, valid_data)
 
         exp = passport.split('eyr:')
         exp = exp[1].split(' ')
@@ -79,7 +76,6 @@ for passport in full_list:
         if exp >= 2020 and exp <= 2030:
             valid_data +=1
 
-        print('expire' , exp, valid_data)
 
         hair = passport.split('hcl:')
         hair = hair[1].split(' ')
@@ -89,18 +85,14 @@ for passport in full_list:
 
         if hair[0] == '#':
             if len(hair) == 7:
-                #print('flag')
                 nums = 0
                 for let in hair:
-                    #print(let)
                     if let in hair_lets:
                         nums +=1
 
-                #print('nums' , nums)
                 if nums == 7:
                     valid_data +=1
 
-        print('hair', hair, valid_data)
 
         eyes_db = ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth'] 
 
@@ -111,7 +103,6 @@ for passport in full_list:
         if eyes in eyes_db:
             valid_data+=1
         
-        print('eyes', eyes, valid_data)
 
         pid = passport.split('pid:')
         pid = pid[1].split(' ')
@@ -126,9 +117,6 @@ for passport in full_list:
             except:
                 pass
         
-        print('pid', pid, valid_data)
-        print('==================================================')
-
     if valid_data >= 7:
         valid_passports +=1
 
